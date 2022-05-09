@@ -1,0 +1,43 @@
+Liste Linkate Semplici:
+    - Sequenza di elementi 
+    - Ogni elemento è collegato al successivo
+
+    + Dimensione non è prefissata
+    + Accessibile tramite un puntatore al primo elemento
+    + Termianata da un puntatore a "NIL"
+
+    1 - 4 - -3 - 42  --> Linked List - (Lista Linkata)
+    
+    #1 Nodo [NODE] --> Valore 
+    #1 Nodo [NODE] --> Puntatore (LINK)
+
+    ###
+    Testa [HEAD], sta a significare un puntatore che serve per accedere alla lista, 
+    ossia per accedere alla lista devo chiedere dove si trova la TESTA.
+    La testa è l'unico attributo che mi serve per definire la lista.
+    ###
+
+    ###
+    Ogni Nodo della lista ha un valore e un puntatore che punta al nodo successivo.
+    La parola che viene usata per accedere alla lista è HEAD, che punta al primo elemento della lista.
+    Nodo [NODE]:
+        - Valore: tipo di dato
+        - Successivo: Nodo*
+    ###
+
+    Operazioni sulle Liste:
+        1. Inserimento              (2)
+        2. Accesso
+        3. Ricerca                  (4)
+        4. Cancellazione            (3)
+        5. Ordinamento
+        6. Copia
+        7. Controllo lista vuota    (1)
+
+    ### Controllo lista vuota ### 
+
+    Vedere slide e inserire immagine.
+
+    ### Inserimento ###
+
+    Vedere slide e inserire immagine.
